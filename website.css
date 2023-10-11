@@ -8,11 +8,11 @@
 }
 header{
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
 }
 header h2{
     width: 10%;
+    margin: 0 0 0 1rem;
 }
 .navigation {
     display: flex;
@@ -33,23 +33,21 @@ header p:hover{
 .top_page{
     height: 20rem;
     width: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    text-align: center;
+    display: flex;
 }
 .top_page img{
     height: 100%;
     width: 100%;
+    position: relative;
+    opacity: 90%;
 }
 .top_page div{
+    border: 1px solid green;
+    position: absolute;
     width: 40%;
     color: var(--clr-red);
     font-family: var(--ff-primary);
-    display: flex;
-    flex-direction: column;
-    margin: 25% 0;
-    position: absolute;
+    margin: 5rem 14rem;
 }
 .top_page div h1{
     font-size: 2rem;
