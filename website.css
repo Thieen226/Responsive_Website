@@ -1,12 +1,46 @@
+*{
+    margin: 0;
+}
 :root{
-    --clr-primary: #F63030;
+    --clr-red: #F63030;
     --clr-blue: #33507B;
-    --f-primary: 'Gabarito', sans-serif;
+    --ff-primary: 'Gabarito', sans-serif;
 }
 header{
     display: flex;
-    justify-content: space-around;
-    background-color: var(--clr-primary);
+    justify-content: space-between;
+}
+header h2{
+    width: 10%;
+}
+header p{
+    margin: 0 0 0.5rem;
+}
+.top_page{
+    margin: 0; 
+    height: 20rem;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.top_page div{
+    width: 40%;
+    color: var(--clr-red);
+    font-family: var(--ff-primary);
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin: 25% 0;
+    position: absolute;
+}
+.top_page div h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.top_page div p{
+    color: white;
+    text-align: center;
 }
 .menu p:hover{
     font-weight: 600;
@@ -16,10 +50,4 @@ header{
 img{
     height: 100%;
     width: 25rem;
-}
-.split div h1{
-    font-size: 2.5rem;
-    text-align: center;
-    margin: 10px;
-    font-family: var(--f-primary);
 }
