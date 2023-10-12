@@ -7,12 +7,17 @@
     --clr-blue: #33507B;
     --clr-beige:#e7e3da;
     --ff-primary: 'Gabarito', sans-serif;
+    --ff-heading:'Abril Fatface', serif;
+    --ff-body:'Playfair Display', serif;
+}
+p{
+    font-family: var(--ff-body);
 }
 header{
     display: flex;
     justify-content: space-between;
 }
-header h2{
+h2{
     width: 10%;
     margin: 0 0 0 1rem;
 }
@@ -67,6 +72,7 @@ header p:hover{
     color: var(--clr-yellow);
 }
 .info{
+    margin-inline: auto;
     background-color: var(--clr-beige);
 }
 .info h1,
@@ -84,6 +90,8 @@ header p:hover{
     line-height: 1.5rem;
 }
 .split{
+    width: min(90%, 70.5rem);
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
 }
@@ -93,6 +101,10 @@ header p:hover{
 }
 .split h1, 
 .split p{
+    text-align: center;
     margin: 0 0 1em 0;
 
+}
+.split h1{
+    padding: 1em 0 0 0;
 }
