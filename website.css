@@ -45,15 +45,16 @@ header p:hover{
 }
 .top_page div{
     position: absolute;
-    width: 40%;
+    float:right;
     color: var(--clr-red);
     font-family: var(--ff-primary);
-    margin: 4rem 14rem;
+    margin: 5% 55%;
 }
 .top_page div h1{
     font-size: 2.5rem;
     text-align: center;
     line-height: 3.75rem;
+    margin: 0 0 1em;
 }
 .top_page div p{
     color: white;
@@ -67,15 +68,31 @@ header p:hover{
 }
 .info{
     background-color: var(--clr-beige);
-    height: 12rem;
 }
 .info h1,
 .info p{
-    padding: 1rem;
+    padding: 1em;
     text-align: center;
     width: 80%;
-    margin: 0 auto;
+    margin-inline: auto;
+}
+.info h1{
+    padding: 1rem 0 0 0;
+    line-height: 2.25rem;
 }
 .info p{
-    padding: 0;
+    line-height: 1.5rem;
+}
+.split{
+    display: flex;
+    flex-direction: column;
+}
+.split div img{
+    display: block;
+    max-width: 100%;
+}
+.split h1, 
+.split p{
+    margin: 0 0 1em 0;
+
 }
