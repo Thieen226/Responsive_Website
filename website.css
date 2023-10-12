@@ -2,6 +2,7 @@
     margin: 0;
 }
 :root{
+    --clr-yellow: #E9D01A;
     --clr-red: #F63030;
     --clr-blue: #33507B;
     --ff-primary: 'Gabarito', sans-serif;
@@ -42,18 +43,22 @@ header p:hover{
     opacity: 90%;
 }
 .top_page div{
-    border: 1px solid green;
     position: absolute;
     width: 40%;
     color: var(--clr-red);
     font-family: var(--ff-primary);
-    margin: 5rem 14rem;
+    margin: 6rem 14rem;
 }
 .top_page div h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 .top_page div p{
     color: white;
     text-align: center;
+}
+.top_page div span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--clr-yellow);
 }
