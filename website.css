@@ -161,3 +161,9 @@
   .phone{
     padding: 0.5em;
   }
+  .box{
+    border: 1px solid black;
+    width: 80%;
+    height: 20rem;
+    margin: 1rem auto;
+  }
