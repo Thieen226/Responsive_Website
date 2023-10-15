@@ -6,6 +6,7 @@
     --clr-red: #F63030;
     --clr-blue: #0151c8;
     --clr-beige:#d7d9cb;
+    --clr-green: #4CAF50;
     --ff-body: 'Gabarito', sans-serif;
     --ff-heading:'Abril Fatface', serif;
     --ff-primary:'Playfair Display', serif;
@@ -170,10 +171,32 @@
   .info-report{
     display: flex;
     margin: 1em;
-    position: relative;
   }
   input{
     border: none;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #dfdfdf;
+    outline: none;
+    margin: 0 0 1em 1em;
+  }
+  .detail-info{
+    text-align: left;
+    flex-direction: column;
+  }
+  #text{
+    margin: 1rem;
+    height: 15rem;
+  }
+  #text:focus{
     outline: none;
   }
+  button{
+    border-radius: 3rem;
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    background-color: var(--clr-green);
+  }
+  button:hover{
+    background-color: #7cd47f;
+  }
+
