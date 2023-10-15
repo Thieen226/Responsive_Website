@@ -185,6 +185,7 @@
   #text{
     margin: 1rem;
     height: 15rem;
+    resize: none;
   }
   #text:focus{
     outline: none;
