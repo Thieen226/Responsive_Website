@@ -164,6 +164,16 @@
   .box{
     border: 1px solid black;
     width: 80%;
-    height: 20rem;
+    height: 35rem;
     margin: 1rem auto;
+  }
+  .info-report{
+    display: flex;
+    margin: 1em;
+    position: relative;
+  }
+  input{
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
   }
