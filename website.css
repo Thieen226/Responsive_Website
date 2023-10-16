@@ -95,14 +95,13 @@
   .problems_split,
   .solution_split{
     text-align: center;
-    margin: 1em 0;
-    padding: 1em;
     display: flex;
     flex-direction: column;
   }
   .split h1,
   .problems_split h1,
   .solution_split h1{
+    margin: 0.5em 0;
     line-height: 2.25rem;
     font-family: var(--ff-primary);
   }
@@ -116,7 +115,6 @@
   .split div img{
     display: block;
     max-width: 100%;
-    margin: 1em 0;
   } 
   .split> *,
   .problems_split> *,
@@ -201,4 +199,13 @@
     background-color: #7cd47f;
   }
 
-
+@media (min-width: 40rem){
+  .split{
+    flex-direction: row;
+  }
+  .split h1{
+    width: 60%;
+  }
+  .split div >* {
+    margin: 1em 0;
+  }
