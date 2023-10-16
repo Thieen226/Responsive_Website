@@ -136,6 +136,9 @@
   .victims> *{
     margin: 0 0 1em 0;
   }
+  .victims img{
+    margin: 1rem 0 0;
+  }
   img{
     display: block;
     max-width: 100%;
@@ -239,6 +242,7 @@
   }
   .victims img{
     width: 25%;
+    height: 100%;
   }
   .report_split{
     display: flex;
