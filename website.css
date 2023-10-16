@@ -83,7 +83,7 @@
     margin-inline: auto;
   }
   .info h1{
-    padding: 1rem 0 0 0;
+    padding: 1rem 0 0;
     line-height: 2.25rem;
     font-family: var(--ff-primary);
   }
@@ -98,7 +98,7 @@
     flex-direction: column;
   }
   .split h1,
-  .problems_split h1,
+  .problems h1,
   .solution_split h1,
   .victims div h1{
     margin: 0.5em 0;
@@ -107,8 +107,8 @@
   }
   .info p,
   .split div p,
-  .problems_split p,
-  .solution_split p,
+  .problems p,
+  .solution p,
   .victims div p{
     width: 80%;
     line-height: 2rem;
@@ -120,7 +120,7 @@
   } 
   .split> *,
   .problems_split> *,
-  .solution_split> *{
+  .solution> *{
     margin: 0 0 1em 0;
   }
   .victims{
@@ -144,9 +144,17 @@
     display: block;
     max-width: 100%;
   }
-  .problems_split,
-  .solution_split{
+  .problems,
+  .solution{
     background-color: var(--clr-beige);
+  }
+  .problems h1,
+  .solution h1{
+    text-align: center;
+    margin: 0.5em 0;
+    padding: 1rem 0 0;
+    line-height: 2.25rem;
+    font-family: var(--ff-primary);
   }
   .contact{
     text-align: center;
@@ -215,5 +223,18 @@
   }
   .split div >* {
     margin: 1em;
+  }
+  .problems_split,
+  .solution_split{
+    display: flex;
+    flex-direction: row;
+  }
+  .report_split{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0 0;
+  }
+  .report-spacing{
+    width: 100%;
   }
 }
