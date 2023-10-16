@@ -88,7 +88,6 @@
     font-family: var(--ff-primary);
   }
   .info p{
-    line-height: 1.5rem;
     padding: 1em;
   }
   .split,
@@ -100,17 +99,20 @@
   }
   .split h1,
   .problems_split h1,
-  .solution_split h1{
+  .solution_split h1,
+  .victims div h1{
     margin: 0.5em 0;
     line-height: 2.25rem;
     font-family: var(--ff-primary);
   }
-  .split p,
+  .info p,
+  .split div p,
   .problems_split p,
-  .solution_split p{
+  .solution_split p,
+  .victims div p{
     width: 80%;
-    line-height: 1.5rem;
-    margin-inline: auto;
+    line-height: 2rem;
+    margin: 0 auto 1.5em;
   }
   .split div img{
     display: block;
@@ -121,7 +123,6 @@
   .solution_split> *{
     margin: 0 0 1em 0;
   }
-  
   .victims{
     display: flex;
     flex-direction: column;
@@ -142,7 +143,6 @@
   img{
     display: block;
     max-width: 100%;
-    margin: 1em 0;
   }
   .problems_split,
   .solution_split{
@@ -200,12 +200,20 @@
   }
 
 @media (min-width: 40rem){
+  .top_page img{
+    height: 25rem;
+  }
+  .info_media{
+    margin: 5em 0 0;
+  }
   .split{
     flex-direction: row;
+    width: 95%;
   }
   .split h1{
-    width: 60%;
+    width: 90%;
   }
   .split div >* {
-    margin: 1em 0;
+    margin: 1em;
   }
+}
