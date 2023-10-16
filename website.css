@@ -230,6 +230,7 @@
     flex-direction: row;
   }
   .problems_split > *,
+  .victims_split > *,
   .solution_split > *{
     padding-inline: 1em;
   }
@@ -237,8 +238,7 @@
     display: flex;
   }
   .victims img{
-    width: 20%;
-    margin-inline: 0 1em;
+    width: 25%;
   }
   .report_split{
     display: flex;
